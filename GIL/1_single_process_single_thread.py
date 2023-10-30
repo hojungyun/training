@@ -16,5 +16,5 @@ if __name__ == "__main__":
 os.getpid()=74219 | threading.get_ident()=8474747008
 os.getpid()=74219 | threading.get_ident()=8474747008
 os.getpid()=74219 | threading.get_ident()=8474747008
-Function main() {} Took 17.2288 seconds
+fn.__name__='main' args=() kwargs={} took 17.0262 seconds
 """
