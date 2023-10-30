@@ -1,5 +1,5 @@
 from concurrent.futures import ThreadPoolExecutor
-from gil.utils import cpu_bound_fn, timeit
+from utils import cpu_bound_fn, timeit
 
 nums = [30] * 100
 
