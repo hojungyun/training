@@ -1,7 +1,7 @@
 from concurrent.futures import ProcessPoolExecutor
 from utils import cpu_bound_fn, timeit
 
-nums = [30] * 50
+nums = [30] * 100
 
 
 @timeit
@@ -18,5 +18,5 @@ if __name__ == "__main__":
 os.getpid()=83759 | threading.get_ident()=8474747008
 os.getpid()=83756 | threading.get_ident()=8474747008
 os.getpid()=83761 | threading.get_ident()=8474747008
-fn.__name__='main' args=() kwargs={} took 1.4604 seconds
+fn.__name__='main' args=() kwargs={} took 2.6095 seconds
 """
